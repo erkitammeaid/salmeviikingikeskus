@@ -10,13 +10,13 @@
 .n {
   height:5rem;
   left: 60px;
-  top: 20rem;
+  margin-top: 1rem;
   border-radius: 0px;
 }
 
 .info {
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
   height: 752px;
   width: 758px;
   left: 356px;
