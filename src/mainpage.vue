@@ -8,15 +8,16 @@
 
 <style>
 .n {
+  display: flex;
   height:5rem;
-  left: 60px;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
   border-radius: 0px;
 }
 
 .info {
   margin: auto;
-  margin-top: 0.5rem;
+  margin-top: -3rem;
   height: 752px;
   width: 758px;
   left: 356px;

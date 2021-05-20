@@ -1,14 +1,16 @@
 <template>
-  <div class="footer">fiiter</div>
+  <div class="footer">footer</div>
 </template>
 
 <style>
+
 .footer {
   position: fixed;
   bottom: 0;
-  height: 10rem;
+  height: 60px;
   width: 100%;
-  border-radius: 0px;
   background: rgba(19, 44, 83, 1);
+  font-size: 1.2rem;
 }
+
 </style>

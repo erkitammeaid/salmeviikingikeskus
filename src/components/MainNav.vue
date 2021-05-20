@@ -16,6 +16,7 @@
       </ul>
     </div>
   </nav>
+  <div class="footer">footer</div>
 </template>
 
 
