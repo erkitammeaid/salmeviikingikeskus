@@ -9,7 +9,7 @@
   bottom: 0;
   height: 60px;
   width: 100%;
-  background: rgba(19, 44, 83, 1);
+  background: #4582dd98;
   font-size: 1.2rem;
 }
 
