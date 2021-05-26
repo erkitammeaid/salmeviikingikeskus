@@ -74,18 +74,11 @@ footer {
     display: flex;
     height: 752px;
     width: 758px;
+    margin-top: 0.5rem;
     border-radius: 30px;
-    background: linear-gradient(180deg, #3347FF 0%, rgba(82, 161, 252, 0.385417) 39.03%, rgba(0, 119, 255, 0) 100%);
-
-
-
-
-}
-
-.logo {
-    display: flex;
-    height:5rem;
-    margin-left: 2rem;
+    background: linear-gradient(180deg, #374bff 0%, 
+    rgba(82, 161, 252, 0.385417) 39.03%, 
+    rgba(0, 119, 255, 0) 100%);
 }
 
 .container {
