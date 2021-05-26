@@ -37,11 +37,11 @@ li {
 
 .Est {
     margin-right: 2rem;
-    box-shadow:0px 10px 60px 3px black;  
+    box-shadow:0px 10px 60px 3px black;
 }
 
 .UK {
-    box-shadow:0px 10px 60px 3px black;  
+    box-shadow:0px 10px 60px 3px black;
 }
 
 a:hover {
@@ -73,4 +73,15 @@ footer {
 .container {
     display: flex;
     justify-content: center;
+}
+
+.pic-backround {
+    height: 556px;
+width: 800px;
+left: 341px;
+top: 20rem;
+border-radius: 20px;
+background: rgba(152, 158, 181, 1);
+
+
 }
