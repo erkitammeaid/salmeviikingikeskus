@@ -1,37 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/salme-leiud.css">
-    <title>Salme leiud</title>
+    <title>Avaleht</title>
 </head>
+
 <body>
     <nav>
         <ul>
             <li><a href="/html/index.html">Avaleht</a></li>
             <li><a href="/html/tegevused.html">Tegevused</a></li>
             <li><a href="/html/salme-leiud.html">Salme leiud</a></li>
-            <li><a href="/html/info.html">Info</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Info</a>
+                <div class="dropdown-content">
+                    <a href="/html/meeskond.html">Meeskond</a>
+                    <a href="/html/viikingiaasta.html">Viikingiaasta</a>
+                </div>
+            </li>
             <li><a href="/html/galerii.html">Galerii</a></li>
         </ul>
         <div class="languages">
-          <a href=""><img class="Est" src="/pictures/Est.png" alt=""></a>
-          <a href=""><img class="UK" src="/pictures/UK.png" alt=""></a>
+            <a href=""><img class="Est" src="/pictures/Est.png" alt=""></a>
+            <a href=""><img class="UK" src="/pictures/UK.png" alt=""></a>
         </div>
     </nav>
     <div class="container">
-      <div class="info">arsogkb</div>
+        <div class="info">arsogkb</div>
     </div>
     <footer>
-      <ul>
-        <li>+372 5690312</li>
-        <li>näide@gmail.com</li>
-        <li>aadress</li>
-        <li>näide</li>
-        <li>näide</li>
-      </ul>
+        <ul>
+            <li>+372 5690312</li>
+            <li>näide@gmail.com</li>
+            <li>aadress</li>
+            <li>näide</li>
+            <li>näide</li>
+        </ul>
     </footer>
 </body>
+
 </html>
+
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>

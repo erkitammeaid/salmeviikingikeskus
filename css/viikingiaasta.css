@@ -70,18 +70,20 @@ footer {
     justify-content: center;
   }
 
+.info {
+    display: flex;
+    height: 752px;
+    width: 758px;
+    margin-top: 0.5rem;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #374bff 0%,
+    rgba(82, 161, 252, 0.385417) 39.03%,
+    rgba(0, 119, 255, 0) 100%);
+}
+
 .container {
     display: flex;
     justify-content: center;
-}
-
-.pic-backround {
-    height: 556px;
-width: 800px;
-left: 341px;
-top: 20rem;
-border-radius: 20px;
-background: rgba(152, 158, 181, 1);
 }
 
 li.dropdown {

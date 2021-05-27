@@ -13,7 +13,13 @@
             <li><a href="/html/index.html">Avaleht</a></li>
             <li><a href="/html/tegevused.html">Tegevused</a></li>
             <li><a href="/html/salme-leiud.html">Salme leiud</a></li>
-            <li><a href="/html/info.html">Info</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Info</a>
+                <div class="dropdown-content">
+                    <a href="/html/meeskond.html">Meeskond</a>
+                    <a href="/html/viikingiaasta.html">Viikingiaasta</a>
+                </div>
+            </li>
             <li><a href="/html/galerii.html">Galerii</a></li>
         </ul>
         <div class="languages">
@@ -37,3 +43,15 @@
     </footer>
 </body>
 </html>
+
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
