@@ -75,13 +75,14 @@ footer {
     justify-content: center;
 }
 
-.pic-backround {
+.pic-background {
     height: 556px;
 width: 800px;
 left: 341px;
 top: 20rem;
 border-radius: 20px;
 background: rgba(152, 158, 181, 1);
+margin-top: 6rem;
 }
 
 li.dropdown {
