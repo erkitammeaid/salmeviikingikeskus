@@ -1,0 +1,33 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Skranji', cursive;
+}
+
+.mainnav{
+    display: flex;
+    background-color: #086bff;;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+.info{
+        display: flex;
+        flex-direction: column;
+        height: 322px;
+        width: 712px;
+        margin-top: 2rem;
+        border-radius: 30px;
+        padding: 3rem;
+        padding-left: 46px;
+        /* font-size: 1.2rem; */
+        color: white;
+        align-items: left;
+        background: linear-gradient(180deg, #374bff 0%,
+        rgba(82, 161, 252, 0.385417) 39.03%,
+        rgba(0, 119, 255, 0) 100%);
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+    }
