@@ -2,13 +2,15 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Skranji', cursive;
+    text-decoration: none;
+    list-style: none;
+    background-repeat: no-repeat;
 }
 
 .mainnav{
     display: flex;
     background-color: #086bff;;
     align-items: center;
-    justify-content: flex-end;
     justify-content: space-between;
 }
 .info{
@@ -31,3 +33,19 @@
         display: flex;
         justify-content: center;
     }
+.icon{
+    color: white;
+    font-size: 2rem;
+}
+.links{
+    display: flex;
+    background-color: #086bff;
+    padding:0 15px;
+    border-top: black 1px solid;
+}
+.links a{
+    color: white;
+}
+.links a:hover{
+    color: gray;
+}

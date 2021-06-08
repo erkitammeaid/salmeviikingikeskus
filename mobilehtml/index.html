@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/mobilecss/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body background="/pictures/mobilebackground.png">
@@ -14,10 +16,6 @@
         <div class="logo">
             <img src="/pictures/Logo.png">
         </div>
-        <ul>
-            <li><a href="#">Avaleht</a></li>
-            <li><a href="#"></a></li>
-        </ul>
         <div class="languages">
             <a href="#">
                 <img src="/pictures/Est.png" alt="Est" width="39px" height="17px">
@@ -26,6 +24,30 @@
                 <img src="/pictures/UK.png" alt="UK" width="39px" height="17px">
             </a>
         </div>
+        <div class="menutrigger">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <div class="links">
+        <ul id="mylinks">
+            <li>
+                <a href="#">Avaleht</a>
+            </li>
+            <li>
+                <a href="#">Tegevused</a>
+            </li>
+            <li>
+                <a href="#">Salme leiud</a>
+            </li>
+            <li>
+                <a href="#">Info</a>
+            </li>
+            <li>
+                <a href="#">Galerii</a>
+            </li>
+        </ul>
     </div>
     <div class="container">
         <div class="info">
@@ -33,6 +55,16 @@
 
         </div>
     </div>
+    <script>
+        function myFunction() {
+            const x = document.getElementById("mylinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 
 </html>
